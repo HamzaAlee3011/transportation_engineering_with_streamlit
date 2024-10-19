@@ -14,19 +14,19 @@ st.latex(r"""
 """)
 
 # Given constants input
-st.write("#### Constants")
+st.write("#### Parameters")
 
 with st.container(border=True):
     col1a, col1b, col1c = st.columns(3, gap='small')
 
     with col1a:
-        W18 = st.number_input('W18', value=None, placeholder='18-Kips ESAL')
+        W18 = st.number_input('W18 (cumulative)', value=None, placeholder='18-Kips ESAL')
 
     with col1b:
-        Z_R = st.number_input('Zr', value=None, format='%4f')
+        Z_R = st.number_input('Zr', value=None, format='%0.4f')
 
     with col1c:
-        S_o = st.number_input('Standard Deviation (So)', value=None)
+        S_o = st.number_input('Standard Deviation (So)', value=None, format='%0.4f')
 
     col2a, col2b, col2c = st.columns(3, gap='small')
 
