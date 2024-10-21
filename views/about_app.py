@@ -28,7 +28,7 @@ https://www.linkedin.com/in/hamza-ali-35449a2aa/
 st.write('\n')
 st.write("### :blue-background[**Purpose**]")
 st.write("""
-This application is designed to assist engineers in the field of transportation engineering by providing a reliable tool for solving design equations and designing rigid pavements. The app utilizes the AASHTO pavement design equations to calculate the required pavement thickness (D) or Structural Number (SN) based on various input parameters related to equations. By offering a user-friendly interface and accurate computational methods, the app helps streamline the pavement design process.
+This application is designed to assist engineers in the field of transportation engineering by providing a reliable tool for solving design equations and designing rigid & flexible pavements. The app utilizes the AASHTO pavement design equations to calculate the required pavement thickness (D) or Structural Number (SN) based on various input parameters related to equations. By offering a user-friendly interface and accurate computational methods, the app helps streamline the pavement design process.
 """)
 
 
