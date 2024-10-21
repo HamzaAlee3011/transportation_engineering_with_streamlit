@@ -9,7 +9,7 @@ st.write("#### Design Equation")
 
 st.latex(r"""
 \log_{10}W_{18} = Z_R S_o + 7.35 \log_{10}(D+1) - 0.06 + 
-\frac{\log_{10}(\Delta PSI / 3.0)}{1 + \left[ \frac{1.624 \times 10^7}{(D+1)} \right]^{8.46}} 
+\frac{\log_{10}(\Delta PSI / 3.0)}{1 + \left[ \frac{1.624 \times 10^7}{(D+1)^{8.46}} \right]} 
 + (4.22 - 0.32 TSI) \log_{10} \left( \frac{S_c' C_d \left[ D^{0.75} - 1.132 \right]}{215.63 J \left[ D^{0.75} - \left( \frac{18.42}{(E_c/k)^{0.25}} \right) \right]} \right)
 """)
 
